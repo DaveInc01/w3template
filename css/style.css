@@ -1,0 +1,51 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Lato;
+}
+
+#header {
+	background-color: #080808;
+	min-height: 40px;
+}
+
+#header ul {
+	display: flex;
+}
+
+#header ul li:last-child{
+	position: absolute;
+	right: 0;
+}
+
+#header ul li:last-child:hover{
+	background-color: #f44336;!important	
+}
+
+#header ul li {
+	list-style: none;
+	padding: 12px 24px;
+}
+
+#header ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+#header ul li:hover{
+	background-color: #CCCCCC;
+	cursor: pointer;
+}
+
+#header ul li:hover > a{
+	color: black;
+}
+
+#dropdown-items li{
+	display: none;
+}
+
+.light-text {
+	color: #EFFFFF;
+}
