@@ -72,3 +72,16 @@ li{
 .light-text {
 	color: #EFFFFF;
 }
+
+.carousel{
+	position: relative;
+}
+
+.carousel-text{
+	position: absolute;
+	margin: auto;
+}
+
+.carousel img{
+	width: 100%;
+} 
